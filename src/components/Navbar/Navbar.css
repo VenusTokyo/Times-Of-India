@@ -106,7 +106,7 @@ color:rgb(0, 119, 255);
 }
 .navbar_lower_ul{
     display: flex;
-    font-size: 15px;
+    font-size: 14px;
     list-style: none;
     align-items: center;
     justify-content: space-evenly;
@@ -125,7 +125,7 @@ color:rgb(0, 119, 255);
 
 }
 .searchlogoleft{
-    padding-left: 30px;
+    padding-left: 50px;
 }
 .TOIplus{
     font-family: "Times New Roman", Times, serif;
