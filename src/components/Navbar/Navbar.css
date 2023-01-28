@@ -58,13 +58,12 @@
 .fa {
     margin: 0 4px;
     padding: 5px 6px;
-    /* font-size: 0px; */
     width: 15px;
     height: 15px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-    /* background-color: blue; */
+    
 }
 
 .fa-twitter{
