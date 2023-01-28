@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { truncate } from '../../utils'
 const NewsShorts = ({ liveNews }) => {
     return (
         <div className="newsShorts">
@@ -11,7 +11,7 @@ const NewsShorts = ({ liveNews }) => {
                         target="_blank" 
                         rel="noreferrer"
                     >
-                        <span>{liveShorts.webTitle}</span>
+                        <span>{truncate(liveShorts.webTitle, 55)}</span>
                     </a>
                 </li>
             </ul>

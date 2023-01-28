@@ -12,7 +12,7 @@ const LiveOthers = ({ liveNews }) => {
                 rel="noreferrer"
             >
                 <div className="liveOther__single">
-                    <p>{truncate(liveNew.webTitle, 50)}</p>
+                    <p>{truncate(liveNew.webTitle, 60)}</p>
                     <div className="liveOther__img">
                         <img 
                             src={liveNew.fields.thumbnail} 

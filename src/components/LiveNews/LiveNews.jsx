@@ -4,10 +4,11 @@ import LiveMain from './LiveMain'
 import LiveOthers from './LiveOthers'
 import NewsShorts from './NewsShorts'
 import NewsVideos from './NewsVideos'
-
+import './LiveNews.css'
 const baseURL = 'https://content.guardianapis.com'
-const apiKey = `api-key=${process.env.API_KEY}`
-
+const key ="f557d556-adff-4640-85ec-0fee7f41382a"
+const apiKey = `api-key=${key}`
+console.log(apiKey)
 const LiveNews = () => {
     const [liveNews, setLiveNews] = useState()
 
