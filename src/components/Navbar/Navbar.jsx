@@ -16,7 +16,7 @@ const Navbar = () => {
                         <p>{date.toLocaleDateString("en-US", options).toUpperCase()} | UPDATED {date.toLocaleTimeString()} IST</p>
                     </div>
                     <div className="navbar_cityTemp">
-                        <p>NOIDA<span className='navbar_cityTemp_span' role={'img'}>&#9925; 24°</span>C</p>
+                        <p>NOIDA<span className='navbar_cityTemp_span' role={'img'}>24°</span>C</p>
                     </div>
                 </div>
                 <div className="top2">
