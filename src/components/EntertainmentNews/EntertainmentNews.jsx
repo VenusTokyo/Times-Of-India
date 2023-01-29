@@ -5,11 +5,10 @@ import EntOthers from './EntOthers';
 import EntShorts from './EntShorts';
 import EntImgs from './EntImgs';
 import './EntertainmentNews.css'
-const key="f557d556-adff-4640-85ec-0fee7f41382a"
-const baseURL = 'https://content.guardianapis.com'
-const apiKey = `api-key=${key}`
 
-const EntertainmentNews = () => {
+const EntertainmentNews = (props) => {
+    const baseURL = 'https://content.guardianapis.com'
+    const apiKey = `api-key=${props.apikey}`
 
     const [entNews, setEntNews] = useState()
 
