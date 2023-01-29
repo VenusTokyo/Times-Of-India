@@ -15,7 +15,7 @@ const EntMain = ({ entNews }) => {
                         src={entNews[0].fields.thumbnail} 
                         alt={entNews[0].webTitle}
                     />
-                    <h2 className="liveNews__main-title">
+                    <h2 className="entertainment__main-title">
                         {truncate(entNews[0].webTitle, 75)}
                     </h2>                    
                 </a>

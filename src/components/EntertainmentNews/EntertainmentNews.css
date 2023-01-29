@@ -1,7 +1,8 @@
 .entertainment{
-    margin: 10px 50px;
+    margin: 0px 50px;
     border-top: 1px dotted black;
-    padding: 10px 0;
+    padding: 20px 0;
+    margin-bottom:20px ;
 }
 .entertainment__heading {
     font-size: 20px;
@@ -53,7 +54,7 @@
 
 }
 
-.liveNews__main-title {
+.entertainment__main-title {
     position: absolute;
     padding: 0 16px 12px;
     bottom: 0;
