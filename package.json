@@ -1,7 +1,7 @@
 {
   "name": "times-of-india",
   "version": "0.1.0",
-  "homepage": "https://VenusTokyo.github.io/react-gh-pages",
+  
 
   "private": true,
   "dependencies": {
@@ -11,8 +11,6 @@
     "react-scripts": "3.1.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,6 +32,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    
   }
 }
