@@ -8,7 +8,7 @@ import './LiveNews.css'
 const LiveNews = (props) => {
     const baseURL = 'https://content.guardianapis.com'
     const apiKey = `api-key=${props.apikey}`
-    console.log(props.apikey)
+    
     const [liveNews, setLiveNews] = useState()
 
     const fetchLiveNews = async() => {

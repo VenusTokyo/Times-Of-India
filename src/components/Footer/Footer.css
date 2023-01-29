@@ -30,6 +30,7 @@
 .footer_tableMain td{
     padding-right: 15px;
     padding-bottom: 8px;
+    cursor: pointer;
     
     
 }
