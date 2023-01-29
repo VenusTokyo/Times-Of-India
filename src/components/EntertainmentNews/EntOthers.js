@@ -1,6 +1,7 @@
 import React from 'react'
 import { truncate } from '../../utils'
 
+
 const EntOthers = ({ entNews }) => {
     return (
         <div className="entertainment__leftBottom">
