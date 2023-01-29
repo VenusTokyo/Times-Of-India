@@ -9,7 +9,7 @@ const NewsVideos = ({ liveNews }) => {
                 key={newsVideo.id}
                 href={newsVideo.webUrl} 
                 target="_blank" 
-                rel="noreferrer"
+                rel="noopener noreferrer"
             >
                 <div className="newsVideos__single">
                     <div className="newsVideos__img">

@@ -6,7 +6,7 @@ const LiveMain = ({ liveNews }) => {
         <div>
         {liveNews &&
             <div className="liveNews__main">
-                <a href={liveNews[0].webUrl} target="_blank" rel="noreferrer">
+                <a href={liveNews[0].webUrl} target="_blank" rel="noopener noreferrer">
                     <img 
                         src={liveNews[0].fields.thumbnail} 
                         alt={liveNews[0].webTitle}

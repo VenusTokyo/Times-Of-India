@@ -9,7 +9,7 @@ const NewsShorts = ({ liveNews }) => {
                     <a 
                         href={liveShorts.webUrl} 
                         target="_blank" 
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
                     >
                         <span>{truncate(liveShorts.webTitle, 55)}</span>
                     </a>

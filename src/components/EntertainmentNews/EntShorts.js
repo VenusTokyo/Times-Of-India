@@ -9,7 +9,7 @@ const EntShorts = ({ entNews }) => {
                     <a 
                         href={entNew.webUrl} 
                         target="_blank" 
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
                     >
                         <span>{entNew.webTitle}</span>
                     </a>

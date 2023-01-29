@@ -9,7 +9,7 @@ const EntMain = ({ entNews }) => {
                 <a 
                     href={entNews[0].webUrl} 
                     target="_blank" 
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                 >
                     <img 
                         src={entNews[0].fields.thumbnail} 

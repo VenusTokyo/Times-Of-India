@@ -13,7 +13,7 @@ const EntImgs = ({ entNews }) => {
                         key={entNew.id}
                         href={entNew.webUrl}
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
                     >
                         <div className="entertainment__rightImg-container">
                             <div>

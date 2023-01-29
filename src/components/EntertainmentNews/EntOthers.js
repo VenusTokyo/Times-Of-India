@@ -9,7 +9,7 @@ const EntOthers = ({ entNews }) => {
                 key={entNew.id} 
                 href={entNew.webUrl} 
                 target="_blank" 
-                rel="noreferrer"
+                rel="noopener noreferrer"
             >
                 <div className="entertainment__leftBottom--single">
                     <div className='entertainment__leftBottom-img'>

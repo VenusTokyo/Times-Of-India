@@ -9,7 +9,7 @@ const LiveOthers = ({ liveNews }) => {
                 key={liveNew.id} 
                 href={liveNew.webUrl} 
                 target="_blank" 
-                rel="noreferrer"
+                rel="noopener noreferrer"
             >
                 <div className="liveOther__single">
                     <p>{truncate(liveNew.webTitle, 60)}</p>

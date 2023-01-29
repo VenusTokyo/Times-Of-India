@@ -15,9 +15,9 @@ const Footer = () => {
           <h5 className="footer_heading">FOLLOW US ON</h5>
           <table className='footer_socialMediaTable' >
             <tr>
-              <td><a href="https://twitter.com/timesofindia" className="fa fa-twitter footer_socialMediaAnchor"></a></td>
-              <td><a href="https://www.facebook.com/TimesofIndia" className="fa fa-facebook footer_socialMediaAnchor"></a></td>
-              <td><a href="https://www.youtube.com/channel/UCckHqySbfy5FcPP6MD_S-Yg" className="fa fa-youtube footer_socialMediaAnchor"></a></td>
+              <td><a href="https://twitter.com/timesofindia" className="fa fa-twitter footer_socialMediaAnchor"> </a></td>
+              <td><a href="https://www.facebook.com/TimesofIndia" className="fa fa-facebook footer_socialMediaAnchor"> </a></td>
+              <td><a href="https://www.youtube.com/channel/UCckHqySbfy5FcPP6MD_S-Yg" className="fa fa-youtube footer_socialMediaAnchor"> </a></td>
             </tr>
           </table>
           <h5 className="footer_heading" >OTHER TIMES GROUP NEWS SITES</h5>
